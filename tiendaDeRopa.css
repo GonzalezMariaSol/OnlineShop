@@ -8,6 +8,7 @@ body{
     position: relative;
 }
 
+
 /* NAME OF THE COMPANIE */
 header{
     background-color: rgb(255, 255, 255);
@@ -23,6 +24,7 @@ header p{
     font-size: 50px;
 }
 /* ------------------------------------- */
+
 
 /* NAV OPTIONS OF CLOTHING */
 nav{
@@ -48,6 +50,7 @@ select{
     appearance:none;
 }
 /* -------------------------------------------- */
+
 
 /* OFFERS SECTION */
 .offerSection ul{
