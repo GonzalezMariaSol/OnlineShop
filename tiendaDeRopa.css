@@ -79,10 +79,13 @@ select{
 
 @media(max-width: 600px){
     .offerSection ul img{
-            max-width: 100%;
-            height: auto;
-            margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
+}
+.offerSection ul::-webkit-scrollbar {
+    display: none;
 }
 /* --------------------------------------------- */
 
