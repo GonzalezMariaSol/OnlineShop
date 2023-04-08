@@ -53,7 +53,7 @@ select{
 
 
 /* OFFERS SECTION */
-.hola{
+.offerSection ul{
     list-style: none;
     margin: 0;
     padding:0;
@@ -74,31 +74,13 @@ select{
     margin-right: 9rem; 
     object-fit: contain;
     scroll-snap-align: center;
+}
+.offerSection ul li{
     background-color: red;
+    width: 90rem;
+    height: 35rem;
 }
 
-@media(max-width: 600px){
-    .offerSection ul img{
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-    }
-    .hola{
-        width: 100%;
-        overflow: hidden;
-    }
-    .hola ul{
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-    .hola ul img{
-        width: 50%;
-        margin-right: 10px;
-    }
-    .offerSection:hover .hola{
-        transform: none;
-    }
-}
 /* --------------------------------------------- */
 
 
