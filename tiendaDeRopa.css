@@ -83,9 +83,21 @@ select{
         height: auto;
         margin: 0 auto;
     }
-}
-.offerSection ul::-webkit-scrollbar {
-    display: none;
+    .hola{
+        width: 100%;
+        overflow: hidden;
+    }
+    .hola ul{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .hola ul img{
+        width: 50%;
+        margin-right: 10px;
+    }
+    .offerSection:hover .hola{
+        transform: none;
+    }
 }
 /* --------------------------------------------- */
 
