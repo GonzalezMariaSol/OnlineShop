@@ -34,7 +34,7 @@ nav ul{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 13px;
+    padding-top: 1rem;
 }
 nav ul li{
     list-style:none
@@ -55,9 +55,9 @@ select{
     margin: 0;
     padding:0;
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     overflow: auto;
-    background-color: purple;
+    background-color: #e8d8b4;
     scroll-snap-type: x mandatory;
 }
 .offerSection ul::-webkit-scrollbar {
@@ -65,11 +65,10 @@ select{
 }
 
 .offerSection ul img{
-    width: 900px;
-    height: 600px;
+    width: 60rem;
+    height: 35rem;
     margin-left: 13rem;
     margin-right: 9rem; 
-    border: 3px solid red;
     object-fit: contain;
     scroll-snap-align: center;
 }
