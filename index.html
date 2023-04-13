@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="tiendaDeRopa.css">
@@ -68,47 +69,47 @@
     <section class="theBestSellers">
         <h2>Los mas vendidos <i class="fa-solid fa-fire" style="color: #ff0000;"></i></h2>
         <div class="bestSellerBox">
-            <div class="bestBoxOne">
+            <div class="bestBox">
                 <figure>
-                    <img src="img/los vas vendidos/los mas vendidos 1.jpg">
+                    <img class="img" src="img/los vas vendidos/los mas vendidos 1.jpg">
+                    <p>Conjunto Indie natural</p>
+                    <h6>$25.000</h6>
                 </figure>
-                <p>Conjunto Indie natural</p>
-                <h6>$25.000</h6>
             </div>
-            <div class="bestBoxTwo">
+            <div class="bestBox">
                 <figure>
                     <img src="img/los vas vendidos/los mas vendidos 2.jpg">
+                    <p>Falda New York </p>
+                    <h6>$10.000</h6>
                 </figure>
-                <p>Falda New York </p>
-                <h6>$10.000</h6>
             </div>
-            <div class="bestBoxThree">
+            <div class="bestBox">
                 <figure>
                     <img src="img/los vas vendidos/los mas vendidos 3.jpg">
+                    <p>Remera The Office</p>
+                    <h6>$6.000</h6>
                 </figure>
-                <p>Remera The Office</p>
-                <h6>$6.000</h6>
             </div>
-            <div class="bestBoxFour">
-                <figure>
-                    <img src="img/los vas vendidos/los mas vendidos 5.jpg">
-                </figure>
-                <p>Conjunto Seda Causual</p>
-                <h6>$26.000</h6>
-            </div>
-            <div class="bestBoxFive">
+            <div class="bestBox">
                 <figure>
                     <img src="img/los vas vendidos/los mas vendidos 6.jpg">
+                    <p>Conjunto Power Woman</p>
+                    <h6>$25.900</h6>
                 </figure>
-                <p>Conjunto Power Woman</p>
-                <h6>$25.900</h6>
             </div>
-            <div class="bestBoxSix">
+            <div class="bestBox">
                 <figure>
-                    <img src="img/los vas vendidos/los mas vendidos 4.jpg"
+                    <img src="img/los vas vendidos/los mas vendidos 4.jpg">
+                    <p>Saco Braid</p>
+                    <h6>$8.000</h6>
                 </figure>
-                <p>Saco Braid</p>
-                <h6>$8.000</h6>
+            </div>
+            <div class="bestBox" id="lastBestBox">
+                <figure>
+                    <img src="img/TOPS/musculosa 1.jpg">
+                    <p>Conjunto Paris</p>
+                    <h6>$12.000</h6>
+                </figure>
             </div>
         </div>
         <button>ver mas</button>
@@ -118,42 +119,42 @@
         <div class="saleBox">
             <div class="saleBoxOne">
                 <figure>
-                    <img src="img/liquidacion/liquidacion 1.jpg">
+                    <!-- <img src="img/liquidacion/liquidacion 1.jpg"> -->
                 </figure>
                 <p>Remeron Sunset</p>
                 <h6>$5.000</h6>
             </div>
             <div class="saleBoxTwo">
                 <figure>
-                    <img src="img/liquidacion/liquidacion 2.jpg">
+                    <!-- <img src="img/liquidacion/liquidacion 2.jpg"> -->
                 </figure>
                 <p>Falda Cardellino</p>
                 <h6>$4.900</h6>
             </div>
             <div class="saleBoxThree">
                 <figure>
-                    <img src="img/liquidacion/liquidacion 3.jpg>">
+                    <!-- <img src="img/liquidacion/liquidacion 3.jpg>"> -->
                 </figure>
                 <p>Vestido Roman-chik</p>
                 <h6>$7.500</h6>
             </div>
             <div class="saleBoxFour">
                 <figure>
-                    <img src="img/liquidacion/liquidacion 4.jpg">
+                    <!-- <img src="img/liquidacion/liquidacion 4.jpg"> -->
                 </figure>
                 <p>Vestido Flamenco</p>
                 <h6>$10.000</h6>
             </div>
             <div class="saleBoxFive">
                 <figure>
-                    <img src="img/liquidacion/liquidacion 5.jpg">
+                    <!-- <img src="img/liquidacion/liquidacion 5.jpg"> -->
                 </figure>
                 <p>Conjunto American Teen</p>
                 <h6>$9.900</h6>
             </div>
             <div class="saleBoxSix">
                 <figure>
-                    <img src="img/liquidacion/liquidacion 6.jpg">
+                    <!-- <img src="img/liquidacion/liquidacion 6.jpg"> -->
                 </figure>
                 <p>Remera Basic</p>
                 <h6>$3.000</h6>
@@ -163,7 +164,10 @@
     </section>
     <aside class="extraInfo">
         <div class="infoBoxes">
-            <div>envios a todo el pais</div>
+            <div>
+                <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #c58920;"></i>
+                <p>envios a todo el pais</p>
+            </div>
             <div>Tienda mayorista / compra minima de $20.000</div>
             <div>3 cuotas sin interes con tarjeta de credito</div>
         </div>
