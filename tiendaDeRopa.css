@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'PT Serif', serif;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
     height: 100%;
@@ -13,7 +13,7 @@ body{
 
 /* NAME OF THE COMPANIE */
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: #fffffe;
     height: 5rem;
     width: 100%;
     text-align: center;
@@ -30,7 +30,7 @@ header p{
 
 /* NAV OPTIONS OF CLOTHING */
 nav{
-    background-color: #f1f1f1;
+    background-color: rgb(247, 247, 247);
     height: 3rem;
 }
 nav ul{
@@ -43,13 +43,16 @@ nav ul{
 nav ul li{
     list-style:none
 }
-nav ul li :hover{
-    background-color: rgb(255, 255, 255);
-}
+
 select{
     border: none;
-    background-color: #f1f1f1;
+    background-color: rgb(247, 247, 247);
     appearance:none;
+}
+select:focus{
+    border: none;
+    outline: none;  /*saca el borde al clickearlo*/
+
 }
 /* -------------------------------------------- */
 
@@ -68,7 +71,6 @@ select{
 .offerSection ul::-webkit-scrollbar {
     display: none;
 }
-
 .offerSection ul img{
     width: 60rem;
     height: 35rem;
@@ -97,11 +99,8 @@ select{
     height:17rem;
     padding-top: 0.5rem;
 }
-.paymentsMethods{
-    background-color: rgb(111, 111, 211);
-}
 .paymentsLogos{
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(247, 247, 247);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -147,7 +146,6 @@ select{
     margin-left: 5rem;
     object-fit: cover;
     scroll-snap-align: center;
-    
 }
 #lastBestBox{
     margin-right: 5rem;
@@ -156,6 +154,13 @@ select{
     width: 20rem;
     margin-left: 5.3rem;
     text-align: center;
+}
+.theBestSellers button, .sale button{
+    background-color: #e8d8b4;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 13%;
+    border-style: none;
 }
 /* --------------------------------------------- */
 
@@ -177,21 +182,37 @@ select{
 .saleBox::-webkit-scrollbar {
     display: none;
 }
+.saleBox figure p{
+    width: 20rem;
+    margin-left: 5rem;
+    text-align: center;
+}
+.saleBox figure h6{
+    width: 20rem;
+    padding-left: 5.3rem;
+}
 /* --------------------------------------------- */
 
 
 /*extra info*/
 .extraInfo{
     margin-top: 5rem;
-    height: 4rem;
+    height: 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
+    background-image: linear-gradient(to top, #ffffff, #f5f5f5, #eaeaea, #e0e0e0, #d6d6d6);}
+.extraInfo p{
+    padding-top: 1rem;
 }
-.extraInfo div{
-    background-color: rgb(195, 195, 195);
+#smallLetter{
+    height: 0.3rem;
+    text-align: center;
+}
+.extraInfo i {
+    margin-top: 2rem;
 }
 /* --------------------------------------------- */
 
@@ -200,15 +221,17 @@ select{
 footer{
     margin-top: 5rem;
     height: 6rem;
+    background-color: #C67D57;
 }
 footer ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    list-style:none
+    list-style:none;
+    padding-top: 1.5rem;
 }
 footer p{
-    margin-top: 3.5rem;
+    margin-top: 2.2rem;
     text-align: center;
     font-size:10px;
 }
