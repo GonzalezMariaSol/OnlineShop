@@ -81,7 +81,6 @@ select{
     width: 90rem;
     height: 35rem;
 }
-
 /* --------------------------------------------- */
 
 
@@ -178,12 +177,38 @@ select{
 .saleBox::-webkit-scrollbar {
     display: none;
 }
-
 /* --------------------------------------------- */
 
 
+/*extra info*/
+.extraInfo{
+    margin-top: 5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.extraInfo div{
+    background-color: rgb(195, 195, 195);
+}
+/* --------------------------------------------- */
 
 
-
-
-
+/*footer*/
+footer{
+    margin-top: 5rem;
+    height: 6rem;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style:none
+}
+footer p{
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size:10px;
+}
