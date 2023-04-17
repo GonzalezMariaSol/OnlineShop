@@ -118,14 +118,14 @@ select{
 
 
 /*THE BEST SELLERS*/
-.theBestSellers{
+.theBestSellers , .sale{
     height: 34rem;
     text-align: center;
     list-style: none;
     margin-top: 25px;
     padding:0;
 }
-.bestSellerBox{
+.bestSellerBox , .saleBox{
     height: 29rem;
     display: flex;
     list-style: none;
@@ -162,22 +162,23 @@ select{
 
 
 /*SALE SECTION */
-/*.sale{
-    background-color: purple;
-    height: 34rem;
-    padding-top: 2rem;
-    text-align: center;
+.saleBoxChild{
+    width: 70rem;
 }
-.saleBox{
-    background-color: green;
-    height: 30rem;
+.saleBoxChild figure img{
+    width: 20rem;
+    height: 25rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-left:5rem;
+    object-fit: cover;
+    scroll-snap-align: center;
 }
-.saleBox div{
-    background-color: #C67D57;
-    width: 30rem; /*NO FUNCION AL WIDTH*/
+.saleBox::-webkit-scrollbar {
+    display: none;
 }
+
 /* --------------------------------------------- */
 
 
